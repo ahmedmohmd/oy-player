@@ -53,14 +53,14 @@ function AudioPlayer({ tracks }) {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center gap-5 px-8 py-16 overflow-hidden shadow-2xl backdrop-blur-3xl max-w-300 sm:px-16 rounded-3xl">
+    <div className="flex flex-col items-center justify-center gap-5 px-8 py-16 overflow-hidden shadow-2xl bg-violet-500/25 backdrop-blur-3xl max-w-300 sm:px-16 rounded-3xl">
       <div className="w-64 h-64 overflow-hidden border-8 rounded-full">
         <img className="object-cover w-full h-full" src={imageSrc} alt="" />
       </div>
       <div className="flex flex-col items-center justify-center gap-3 px-5 texts">
         <h1
           dir="rtl"
-          className="w-[250px] text-center  p-0 m-0 text-4xl font-bold truncate font-poppins text-slate-200"
+          className="animate-pulse w-[250px] text-center  p-0 m-0 text-4xl font-bold truncate font-poppins text-slate-200"
         >
           {title}
         </h1>
