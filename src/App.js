@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+//* Imports
+import AudioPlayer from "./components/AudioPlayer";
+import sounds from "./db/sounds.json";
 
+//* App JSX
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="px-4 pt-10 pb-16 app bg-[#1a1a1a] min-w-screen min-h-screen flex justify-center items-center">
+      <AudioPlayer tracks={sounds} />
     </div>
   );
 }
