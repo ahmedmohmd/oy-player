@@ -8,33 +8,19 @@
 }
 
 .app {
-  /* animation: colorChange 20s alternate infinite; */
-  background: linear-gradient(
-    150deg,
-    rgba(126, 93, 242, 1) 0%,
-    rgba(88, 102, 246, 1) 35%,
-    rgba(68, 125, 248, 1) 100%
-  );
-  /* background: #00aeb0; */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 15s alternate infinite;
+  background-size: 400% 400%;
 }
 
-@keyframes colorChange {
-  from {
-    filter: hue-rotate(0deg);
-    /* background: linear-gradient(
-      90deg,
-      rgba(126, 93, 242, 1) 0%,
-      rgba(88, 102, 246, 1) 35%,
-      rgba(68, 125, 248, 1) 100%
-    ); */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-  to {
-    filter: hue-rotate(360deg);
-    /* background: linear-gradient(
-      90deg,
-      rgba(88, 179, 216, 1) 0%,
-      rgba(66, 156, 231, 1) 35%,
-      rgba(61, 134, 247, 1) 100%
-    ); */
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
