@@ -11,6 +11,7 @@ module.exports = {
       // },
       fontFamily: {
         poppins: ["Poppins"],
+        cairo: ["Cairo"],
       },
     },
   },

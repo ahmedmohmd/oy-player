@@ -7,6 +7,11 @@
   src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
 }
 
+@font-face {
+  font-family: "Cairo";
+  src: url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap");
+}
+
 .app {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   animation: gradient 15s alternate infinite;

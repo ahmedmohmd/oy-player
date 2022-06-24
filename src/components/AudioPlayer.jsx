@@ -60,7 +60,7 @@ function AudioPlayer({ tracks }) {
       <div className="flex flex-col items-center justify-center gap-3 px-5 texts">
         <h1
           dir="rtl"
-          className="animate-pulse w-[250px] text-center  p-0 m-0 text-4xl font-bold truncate font-poppins text-slate-200"
+          className="animate-pulse w-[250px] text-center  m-0 text-4xl font-bold truncate p-1 text-slate-200"
         >
           {title}
         </h1>

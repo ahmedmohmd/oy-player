@@ -1,23 +1,16 @@
 [
   {
     "id": 1,
-    "title": "مولايا صلي وسلم",
-    "artist": "ماهر زين",
-    "imageSrc": "/images/sounds/maher-zein.jpg",
-    "audioSrc": "/sounds/sound.mp3"
+    "title": "أجمل أسلوب",
+    "artist": "غير معروف",
+    "imageSrc": "/images/sounds/osloope.jpg",
+    "audioSrc": "/sounds/ajmal-osloop.mp3"
   },
   {
     "id": 2,
-    "title": "يانبي سلام عليك",
-    "artist": "ماهر زين",
-    "imageSrc": "/images/sounds/maher-zein.jpg",
-    "audioSrc": "/sounds/alslam-alyka.mp3"
-  },
-  {
-    "id": 3,
-    "title": "وأشرقت الأرض",
-    "artist": "خالد الجليل",
-    "imageSrc": "/images/sounds/khaled-eljaleel.jpeg",
-    "audioSrc": "/sounds/khaled-eljaleel-washraqat.mp3"
+    "title": "أنشودة برنامج خواطر",
+    "artist": "محمد كندو",
+    "imageSrc": "/images/sounds/mohammed-kendo .jpg",
+    "audioSrc": "/sounds/khwater-track.mp3"
   }
 ]
