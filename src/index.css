@@ -1,7 +1,9 @@
+/* Tailwind Setup */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Fonts */
 @font-face {
   font-family: "Poppins";
   src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
@@ -12,12 +14,14 @@
   src: url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap");
 }
 
+/* Classes */
 .app {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   animation: gradient 15s alternate infinite;
   background-size: 400% 400%;
 }
 
+/* Keyframes */
 @keyframes gradient {
   0% {
     background-position: 0% 50%;

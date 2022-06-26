@@ -1,3 +1,4 @@
+//* AudioControls JSX
 function AudioControls({ isPlaying, onNext, onPrev, onPlayPause }) {
   return (
     <div className="inline-flex items-center w-full gap-2 p-5 justify-evenly">

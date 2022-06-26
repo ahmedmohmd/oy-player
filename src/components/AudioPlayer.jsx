@@ -1,6 +1,8 @@
+//* Imorts
 import { useEffect, useRef, useState } from "react";
 import AudioControls from "./AudioControls";
 
+//* AudioPlayer JSX
 function AudioPlayer({ tracks }) {
   // States
   const [trackIndex, setTrackIndex] = useState(0);
