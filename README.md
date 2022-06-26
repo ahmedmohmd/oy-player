@@ -39,4 +39,4 @@ Sound App is a simple Sound Player which contain some of my Favourite Sounds THa
 
 # App's Screenshot
 
-<!-- ![QR App Screenshot](https://github.com/ahmedmohmd/qr-app/blob/main/app-screenshot.png?raw=true) -->
+![Sound App Screenshot](https://github.com/ahmedmohmd/sound-player/blob/main/app-screenshot.png?raw=true)
