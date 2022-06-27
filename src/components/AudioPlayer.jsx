@@ -9,6 +9,7 @@ function AudioPlayer({ tracks }) {
   const [trackProgress, setTrackProgress] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5);
+  const [copyVolume, setCopyVolume] = useState(0.5);
   const [isMuted, setIsMuted] = useState(false);
 
   // Destructure for conciseness
@@ -62,6 +63,11 @@ function AudioPlayer({ tracks }) {
 
   useEffect(() => {
     audioRef.current.muted = isMuted;
+    if (isMuted) {
+      setVolume(0.0);
+    } else {
+      setVolume(copyVolume);
+    }
   }, [isMuted]);
 
   return (
@@ -156,7 +162,13 @@ function AudioPlayer({ tracks }) {
             value={volume}
             className={"w-full color-red-500 accent-slate-200 "}
             onChange={(event) => {
-              setVolume(event.target.value);
+              if (+event.target.value > 0) {
+                setIsMuted(false);
+              } else {
+                setIsMuted(true);
+              }
+              setVolume(+event.target.value);
+              setCopyVolume(+event.target.value);
             }}
           />
         </div>
