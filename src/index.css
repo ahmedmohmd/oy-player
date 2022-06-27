@@ -21,6 +21,11 @@
   background-size: 400% 400%;
 }
 
+button {
+  outline: none;
+  border: none;
+}
+
 /* Keyframes */
 @keyframes gradient {
   0% {
