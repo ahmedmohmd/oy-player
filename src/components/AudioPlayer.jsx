@@ -182,7 +182,7 @@ function AudioPlayer({ tracks }) {
     } else {
       setTrackIndex(0);
     }
-    console.log(trackIndex);
+    setIsMuted(false);
   }
 
   function handleToPrevTrack() {
@@ -191,7 +191,7 @@ function AudioPlayer({ tracks }) {
     } else {
       setTrackIndex(trackIndex - 1);
     }
-    console.log(trackIndex);
+    setIsMuted(false);
   }
 
   function startTimer() {
